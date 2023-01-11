@@ -11,7 +11,7 @@ public class NoOfGrandChildren {
         String child = "";
         for (int i = 0; i < array.length; i++) {
             if (array[i][1].equals(name)) {
-                child = array[i][0];
+                child = array[0][i];
             }
         }
         int count = 0;
